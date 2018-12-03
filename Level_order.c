@@ -8,7 +8,7 @@ struct node
    int data;
    struct node *right;
    int val;
-    struct queue *next;
+   struct queue *next;
 }*front=NULL, *rear=NULL;
 
 struct node * insert(struct node *root, int item)
